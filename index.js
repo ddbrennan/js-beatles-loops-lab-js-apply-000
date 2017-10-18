@@ -16,6 +16,11 @@ function johnLennonFacts(facts) {
   return excitingFacts
 }
 
-function iLoveTheBeatles() {
-
+function iLoveTheBeatles(n) {
+  const adulation = []
+  do {
+    adulation.push("I love the Beatles!")
+    n++
+  } while (n < 15)
+  return adulation
 }
